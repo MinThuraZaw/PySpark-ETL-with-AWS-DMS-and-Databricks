@@ -4,6 +4,7 @@ Implement change data capture on operational source system and process the data 
 <br>
 
 ### Pipeline
+![alt text](https://github.com/MinThuraZaw/PySpark-ETL-with-AWS-DMS-and-Databricks/blob/main/images/dms_pipeline.jpg)
 
 <br>
 
