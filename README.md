@@ -1,5 +1,5 @@
 ### About
-Implement change data capture on operational source system and process the data to get slowly changing dimension tables.
+Implement change data capture on operational source system, store and process all the changes log data for further analytics.
 
 <br>
 
