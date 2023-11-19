@@ -1,5 +1,5 @@
 ### About
-Implement change data capture on operational source system and process the data to get slowly changing dimension tables.
+Implement change data capture on operational source system, store and process all the changes log data for further analytics.
 
 <br>
 
@@ -9,10 +9,10 @@ Implement change data capture on operational source system and process the data 
 <br>
 
 ### Requirements
-1) Operational Database
-2) AWS DMS
+1) Operational Database (any database or storage compatible with DMS)
+2) AWS DMS (a running replication instance)
 3) AWS S3
-4) Databricks
+4) Databricks (all-purpose cluster, better with unity catalog enabled)
 
 **Languages**
 * PySpark
