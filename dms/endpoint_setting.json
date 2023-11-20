@@ -1,0 +1,15 @@
+{
+    "CsvRowDelimiter": "\\n",
+    "CsvDelimiter": ",",
+    "BucketFolder": "databricks",
+    "BucketName": "demo_bucket",
+    "CompressionType": "NONE",
+    "DataFormat": "parquet",
+    "EnableStatistics": true,
+    "TimestampColumnName": "timestamp",
+    "DatePartitionEnabled": true,
+    "DatePartitionSequence": "yyyymmdd",
+    "DatePartitionDelimiter": "slash",
+    "AddColumnName": true,
+    "CdcMaxBatchInterval": 1
+}
