@@ -21,4 +21,6 @@ Implement change data capture on operational source system, store and process al
 <br>
 
 ### Development Steps
-
+1) Create source and target endpoints in DMS (RDBMS for source and S3 bucket for target)
+2) Setup database migration task in DMS with ongoing replication.
+3) 
