@@ -21,6 +21,7 @@ Implement change data capture on operational source system, store and process al
 <br>
 
 ### Development Steps
-1) Create source and target endpoints in DMS (RDBMS for source and S3 bucket for target)
-2) Setup database migration task in DMS with ongoing replication.
-3) 
+1) Setup the source database for DMS (for example, permission for the user or enable logs for DMS to read)
+2) Create source and target endpoints in DMS (RDBMS for source and S3 bucket for target)
+3) Setup database migration task in DMS with ongoing replication.
+4) Load data from S3 bucket into delta talbe with autoloader in Databricks. 
